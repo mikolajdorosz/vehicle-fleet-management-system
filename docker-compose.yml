@@ -1,0 +1,18 @@
+services:
+  db:
+    image: ${DOCKER_IMAGE:-postgres:16}
+    container_name: ${DOCKER_CONTAINER:-pgsql-bd2025}
+
+    ports:
+      - "${DB_PORT:-5433}:5432"
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_NAME:-bd2025}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./migrations:/migrations
+    restart: unless-stopped
+
+volumes:
+  pgdata:
