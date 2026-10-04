@@ -1,3 +1,17 @@
+# Vehicle Fleet Management System - AGH Databases Project
+
+Individual academic project that implements a relational database system for managing a company's vehicle fleet, including vehicle availability, reservations, rentals, service history and user roles.
+
+## Project overview
+
+The system allows a company to manage vehicle availability across departments, track rental history and record vehicle service events. 
+
+The database also implements business rules that prevent conflicting reservations and rentals, including automatic validation using database triggers.
+
+### Entity Relationship Diagram 
+
+![ERD Diagram](images/erd.png)
+
 #### Setup virtual environment
 ```bash
 python -m venv .venv
