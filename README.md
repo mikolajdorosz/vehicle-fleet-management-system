@@ -1,6 +1,6 @@
 # Vehicle Fleet Management System - AGH Databases Project
 
-Individual academic project that implements a relational database system for managing a company's vehicle fleet, including vehicle availability, reservations, rentals, service history and user roles.
+Individual academic project implementing a relational database system for managing a company's vehicle fleet, including vehicle availability, reservations, rentals, service history and user roles.
 
 ## Project overview
 
