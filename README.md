@@ -4,7 +4,7 @@ Individual academic project implementing a relational database system for managi
 
 ## Project overview
 
-The system allows a company to manage vehicle availability across departments, track rental history and record vehicle service events. 
+The system allows a company to manage vehicle availability across departments, track rental history and record vehicle maintenance events. 
 
 The database also implements business rules that prevent conflicting reservations and rentals, including automatic validation using database triggers.
 
